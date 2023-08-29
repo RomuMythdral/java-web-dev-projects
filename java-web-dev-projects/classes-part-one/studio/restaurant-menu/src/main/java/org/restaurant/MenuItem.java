@@ -1,4 +1,4 @@
-package org.launchcode;
+package org.restaurant;
 
 public class MenuItem {
     private double price;
