@@ -1,5 +1,11 @@
 package org.launchcode;
 
+
+@Test
+public void emptyTest() {
+    assertEquals(10,10,.001);
+}
+
 public class Car {
     private String make;
     private String model;
