@@ -7,6 +7,9 @@ public class Main {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();
         ArrayList<Cone> cones = menu.getCones();
+        Comparator comparator = new FlavorComparator();
+
+        flavors.sort( new FlavorComparator());
 
         // TODO: Use a Comparator class to sort the 'flavors' array alphabetically by the 'name' field.
 
